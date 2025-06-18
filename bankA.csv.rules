@@ -1,0 +1,33 @@
+# Skip header
+skip 1
+
+# Use semicolon as CSV separator
+separator ;
+
+# Field mapping: Fecha ctble;Fecha valor;Concepto;Importe;Moneda;Saldo;Moneda;Concepto ampliado
+fields date, , description, amount, , , , note
+
+# Date format is DD-MM-YYYY
+date-format %d-%m-%Y
+
+# Dot is decimal mark
+decimal-mark .
+
+# No currency in CSV amounts
+currency €
+
+# Known account
+account1 assets:savings:bankA
+
+# Pattern rules for account2
+if TODOIST
+  account2 expenses:fun
+
+if NETFLIX
+  account2 expenses:fun
+
+if CENA|Cena|BIZUM
+  account2 expenses:fun
+
+# Fallback
+account2 expenses:unknown

@@ -1,0 +1,25 @@
+account assets:cash
+account assets:savings:bankA
+account assets:savings:bankB
+account assets:investments:funds
+account liabilities:mortgage
+account expenses:home
+account expenses:fun
+account income:salary
+account income:interest
+account equity:opening_balance
+
+commodity 1,000.00€
+
+2025-05-14 Opening balance
+    assets:cash                  100€
+    assets:savings:bankA        1000€
+    assets:savings:bankB        2000€
+    assets:investments:funds     350€
+    liabilities:mortgage       20000€
+    equity:opening_balance    -23450€
+
+2025-05-14 Monthly salary
+    assets:savings:bankA   1500€
+    income:salary         
+    
