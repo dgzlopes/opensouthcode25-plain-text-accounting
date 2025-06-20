@@ -3,26 +3,25 @@
 This repo contains all the examples used in my OpenSouthCode 2025 talk on plain text accounting.
 
 ```bash
-# Overview
-
-## Basics
+# Basics
 hledger -f ./2025.ledger bs --tree --monthly --percent
-# Income Statement (is) / Balance Sheet (bs)
-# not:"assets:property:home" not:"liabilities:mortgage"
-# --forecast
+## Income Statement (is) / Balance Sheet (bs)
+## Adding transactions manually
 
-# Adding Transactions
-## Manually (copilot, etc)
+# More fancy stuff
+## not:"assets:property:home" not:"liabilities:mortgage"
+## --forecast
+
 ## Add command
 ## Importing transactions from CSV
 hledger -f bankA.csv print 
 
-# Visualization (web/ui)
-# Exporting -o bs.csv/json
+## Visualization (web/ui)
+## Exporting -o bs.csv/json
 
-# Non-native tools I use
+# Other tools I use
 ## VScode Extension
-# https://marketplace.visualstudio.com/items?itemName=dgzlopes.ledger-highlight
+## https://marketplace.visualstudio.com/items?itemName=dgzlopes.ledger-highlight
 
 ## Formatter (https://github.com/mondeja/hledger-fmt)
 ./hledger-fmt --fix 2025.ledger
@@ -30,7 +29,7 @@ hledger -f bankA.csv print
 ## Puffin (https://github.com/siddhantac/puffin)
 ./puffin --cfg puffin.config.json
 
-# hledger-tools
-# https://github.com/dgzlopes/hledger-tools
-# add / import / ask
+## https://github.com/dgzlopes/hledger-tools
+## hledger-tools
+## add / import / ask
 ```
