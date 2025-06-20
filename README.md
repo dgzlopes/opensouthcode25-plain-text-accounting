@@ -6,13 +6,12 @@ This repo contains all the examples used in my OpenSouthCode 2025 talk on plain 
 # Basics
 hledger -f ./2025.ledger bs --tree --monthly --percent
 ## Income Statement (is) / Balance Sheet (bs)
-## Adding transactions manually
+## Adding transactions manually and with the add command
 
 # More fancy stuff
 ## not:"assets:property:home" not:"liabilities:mortgage"
 ## --forecast
 
-## Add command
 ## Importing transactions from CSV
 hledger -f bankA.csv print 
 
