@@ -2,8 +2,6 @@
 
 This repo contains all the examples used in my OpenSouthCode 2025 talk on plain text accounting.
 
-### Commands
-
 ```bash
 # Overview
 
