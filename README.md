@@ -10,7 +10,7 @@ hledger -f ./2025.ledger bs --tree --monthly --percent
 
 # More fancy stuff
 ## not:"assets:property:home" not:"liabilities:mortgage"
-## --forecast
+## --forecast (2025)
 
 ## Importing transactions from CSV
 hledger -f bankA.csv print 
