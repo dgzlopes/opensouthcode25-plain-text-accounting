@@ -1,0 +1,195 @@
+account assets:cash
+account assets:savings:bankA
+account assets:savings:bankB
+account assets:investments:funds
+account assets:property:home
+account liabilities:mortgage
+account expenses:home
+account expenses:fun
+account income:salary
+account income:interest
+account equity:opening_balance
+
+commodity 1,000.00€
+
+2024-01-01 Opening balance
+    assets:cash                  500€
+    assets:savings:bankA        100€
+    assets:savings:bankB        200€
+    assets:investments:funds     200€
+    assets:property:home      70000€
+    liabilities:mortgage     -18000€
+    equity:opening_balance    -53000€
+
+2024-06-05 Monthly salary
+    assets:savings:bankA   1400€
+    assets:savings:bankB   1200€
+    income:salary
+
+2024-06-08 Paid rent
+    expenses:home           820€
+    assets:savings:bankA
+
+2024-06-15 Fun expenses
+    expenses:fun           130€
+    assets:cash
+
+2024-06-20 Invested in funds
+    assets:investments:funds   300€
+    assets:savings:bankA
+
+2024-06-25 Mortgage payment
+    liabilities:mortgage    400€
+    assets:savings:bankB
+
+2024-06-30 Interest earned
+    assets:savings:bankB     3.1€
+    income:interest
+
+2024-07-05 Monthly salary + bonus
+    assets:savings:bankA   1600€
+    assets:savings:bankB    300€
+    assets:cash             200€
+    income:salary
+
+2024-07-10 Paid rent
+    expenses:home           800€
+    assets:savings:bankA
+
+2024-07-14 Fun expenses
+    expenses:fun           110€
+    assets:cash
+
+2024-07-18 Unexpected medical expense
+    expenses:home           250€
+    assets:savings:bankA
+
+2024-07-25 Mortgage payment
+    liabilities:mortgage    400€
+    assets:savings:bankB
+
+2024-07-31 Interest earned
+    assets:savings:bankB     2.9€
+    income:interest
+
+2024-08-01 Transfer to cover mortgage
+    assets:savings:bankB    500€
+    assets:savings:bankA
+
+2024-08-10 Paid rent
+    expenses:home           800€
+    assets:savings:bankA
+
+2024-08-15 Fun expenses
+    expenses:fun           160€
+    assets:cash
+
+2024-08-20 Invested in funds
+    assets:investments:funds   150€
+    assets:savings:bankA
+
+2024-08-25 Mortgage payment
+    liabilities:mortgage    400€
+    assets:savings:bankB
+
+2024-08-31 Interest earned
+    assets:savings:bankB     2.7€
+    income:interest
+
+2024-09-05 Monthly salary
+    assets:savings:bankA   1400€
+    assets:savings:bankB   1200€
+    assets:cash             200€
+    income:salary
+
+2024-09-09 Paid rent
+    expenses:home           800€
+    assets:savings:bankA
+
+2024-09-16 Fun expenses
+    expenses:fun            85€
+    assets:cash
+
+2024-09-25 Mortgage payment
+    liabilities:mortgage    400€
+    assets:savings:bankB
+
+2024-09-30 Interest earned
+    assets:savings:bankB     3€
+    income:interest
+
+2024-10-04 Monthly salary
+    assets:savings:bankA   1400€
+    assets:savings:bankB   1200€
+    assets:cash             200€
+    income:salary
+
+2024-10-09 Paid rent
+    expenses:home           800€
+    assets:savings:bankA
+
+2024-10-15 Fun expenses
+    expenses:fun           145€
+    assets:cash
+
+2024-10-20 Invested in funds
+    assets:investments:funds   250€
+    assets:savings:bankA
+
+2024-10-25 Mortgage payment
+    liabilities:mortgage    400€
+    assets:savings:bankB
+
+2024-10-31 Interest earned
+    assets:savings:bankB     3€
+    income:interest
+
+2024-11-05 Monthly salary
+    assets:savings:bankA   1400€
+    assets:savings:bankB   1200€
+    income:salary
+
+2024-11-10 Paid rent
+    expenses:home           800€
+    assets:savings:bankA
+
+2024-11-14 Fun expenses
+    expenses:fun           100€
+    assets:cash
+
+2024-11-25 Mortgage payment
+    liabilities:mortgage    400€
+    assets:savings:bankB
+
+2024-11-30 Interest earned
+    assets:savings:bankB     3€
+    income:interest
+
+2024-12-05 Monthly salary
+    assets:savings:bankA   1400€
+    assets:savings:bankB   1200€
+    income:salary
+
+2024-12-08 Paid rent
+    expenses:home           850€
+    assets:savings:bankA
+
+2024-12-15 Holiday fun expenses
+    expenses:fun           200€
+    assets:cash
+
+2024-12-20 Year-end fund top-up
+    assets:investments:funds   400€
+    assets:savings:bankA
+
+2024-12-25 Mortgage payment
+    liabilities:mortgage    400€
+    assets:savings:bankB
+
+2024-12-31 Interest earned
+    assets:savings:bankB     3€
+    income:interest
+
+2024-12-31 Fund interest
+    assets:investments:funds   3€
+    income:interest

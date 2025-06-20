@@ -2,6 +2,7 @@ account assets:cash
 account assets:savings:bankA
 account assets:savings:bankB
 account assets:investments:funds
+account assets:property:home
 account liabilities:mortgage
 account expenses:home
 account expenses:fun
@@ -11,15 +12,33 @@ account equity:opening_balance
 
 commodity 1,000.00€
 
-2025-05-14 Opening balance
-    assets:cash                  100€
-    assets:savings:bankA        1000€
-    assets:savings:bankB        2000€
-    assets:investments:funds     350€
-    liabilities:mortgage       20000€
-    equity:opening_balance    -23450€
+~ monthly  salary  
+    assets:savings:bankA        1400€
+    assets:savings:bankB        1200€
+    income:salary
 
-2025-05-14 Monthly salary
-    assets:savings:bankA   1500€
-    income:salary         
-    
+~ monthly  fun money
+    expenses:fun                100€
+    assets:savings:bankA
+
+~ monthly  mortgage payment
+    liabilities:mortgage         400€
+    assets:savings:bankB
+
+2025-01-01 Opening balances
+    assets:cash                  170€
+    assets:savings:bankA        1180€
+    assets:savings:bankB        4220.70€
+    assets:investments:funds    1303€
+    assets:property:home       70000€
+    liabilities:mortgage      -15200€
+    equity:opening_balance    -61673.70€
+
+2025-01-05 Monthly salary
+    assets:savings:bankA        1400€
+    assets:savings:bankB        1200€
+    income:salary
+
+2025-01-10 Paid rent
+    expenses:home                850€
+    assets:savings:bankA

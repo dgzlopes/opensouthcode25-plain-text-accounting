@@ -1,0 +1,33 @@
+{
+  "reports": [
+    {
+      "name": "expenses",
+      "cmd": "hledger -f 2025.journal balance type:x"
+    },
+    {
+      "name": "assets",
+      "cmd": "hledger -f 2025.journal balance type:a"
+    },
+    {
+      "name": "revenue",
+      "cmd": "hledger -f 2025.journal balance type:r"
+    },
+    {
+      "name": "liabilities",
+      "cmd": "hledger -f 2025.journal balance type:l"
+    },
+    {
+      "name": "income statement",
+      "cmd": "hledger -f 2025.journal incomestatement"
+    },
+    {
+      "name": "balance sheet",
+      "cmd": "hledger -f 2025.journal balancesheet"
+    },
+    {
+      "name": "accounts",
+      "cmd": "hledger -f 2025.journal accounts --tree",
+      "locked": true
+    }
+  ]
+}
