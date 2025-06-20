@@ -18,6 +18,7 @@ hledger -f ./2025.ledger bs --tree --monthly --percent
 hledger -f bankA.csv print 
 
 # Visualization (web/ui)
+# Exporting -o bs.csv/json
 
 # Non-native tools I use
 ## VScode Extension
